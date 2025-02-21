@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0e0d41;
+}
+
+body {
+    background-color: azure;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-gap: 1rem;
+}
+
+.left {
+    background-color: antiquewhite;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+}
+
+.foto {
+    position: relative;
+}
+
+.foto img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.foto h1 {
+    position: absolute;
+    bottom: 1rem;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+}
+
+i {
+    color: #0e0d41
+}
+
+.pessoais,
+.habilidades,
+.idiomas {
+    color: aqua;
+    padding: 1rem;
+    line-height: 2rem;
+}
